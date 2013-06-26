@@ -1,0 +1,36 @@
+.container {
+	margin-top: 20%;
+	margin-left: 60%;	
+  /*margin: 20px auto;*/
+  width: 425px;
+  padding: 10px 20px 20px 30px;
+  /*padding-left: 2%;*/
+  border: 1px dotted black;
+}
+th {
+  text-align: left;
+}
+
+#link {
+	background-color: #376e3f;
+	padding: 10px;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+html {
+  background-color: #376e3f;
+  background-image: url('/images/zelda22.png');
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+  height: 100%;
+}
+
+#head {
+	margin-top: 0px;
+	margin-left: 25%	;
+	color: white;
+	font-family: 'Aladin', cursive;
+	font-size: 6em;
+}

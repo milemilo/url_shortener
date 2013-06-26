@@ -1,0 +1,21 @@
+  <h1 id="head">Welcome to Mini Link!</h1>
+
+<div class="container">
+  <div id="link">
+    <form action="/urls" method ="post">
+    <input type="text" name="url" placeholder="Enter a link">
+    <p></p>
+    <input type="submit" value="Slice it!">
+    </form>
+  </div>
+  <!-- <img src ="/images/link.png"> -->
+ 
+ <h4> recently sliced links </h4>
+   <ul>
+   <% @urls.each do |link| %>
+   <li><a href='<%= link.url %>'><%= link.short_url %></a> - <%= link.url %> - Visited <%= link.click_count %> Times</li>
+   <!-- <li><a href=<%= link.url %></a> <%= link.url %></li> -->
+   <% end %>
+ </ul>
+
+</div>
